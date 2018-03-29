@@ -1,0 +1,23 @@
+{
+  "name": "dbl-webhook-handler",
+  "version": "1.0.0",
+  "description": "An easy to host webhook handling service for discord bot list",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/melmsie/dbl-webhook-handler.git"
+  },
+  "author": "melmsie#0001",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/melmsie/dbl-webhook-handler/issues"
+  },
+  "homepage": "https://github.com/melmsie/dbl-webhook-handler#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
