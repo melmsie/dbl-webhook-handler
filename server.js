@@ -1,9 +1,8 @@
 const express = require('express');
 const app = express();
-const bodyParser = require('body-parser');
 const config = require('./config.json');
 
-app.use(bodyParser.json());
+app.use(express.json({extended: false}))
 
 //DBL webhooks
 app.post('/dblwebhook', async (req, res) => {
